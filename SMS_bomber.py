@@ -45,7 +45,7 @@ def send(num, counter, slep):
     for x in range(counter):
         banner()
         #print("Target Number          : 01531999473", num)
-        #print("Number of Message Sent : ", x+1)
+        #print("Number of Message Sent : ", x+90)
         page = urllib2.urlopen(req)
         #resp1=Request(result_url)
         #urlopen(resp1)
